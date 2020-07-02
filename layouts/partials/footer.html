@@ -34,30 +34,27 @@
 
 <!-- footer -->
 
-<footer class="bg-dark footer-section">
-<!--  <div class="section">
+<footer class="bg-dark">
+  <div class="section">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <h5 class="text-light">Email</h5>
-          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.email}}</p>
+          <!--<h5 class="text-light">Author</h5>-->
+          <p class="text-white text-center paragraph-lg font-tertiary">{{.Site.Params.author}}</p>
         </div>
         <div class="col-md-4">
-          <h5 class="text-light">Phone</h5>
-          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.phone}}</p>
+          <!--<h5 class="text-light">Email</h5>-->
+          <p class="text-white text-center paragraph-lg font-tertiary">{{.Site.Params.email}}</p>
         </div>
         <div class="col-md-4">
-          <h5 class="text-light">Address</h5>
-          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.address}}</p>
+          <!--<h5 class="text-light">Address</h5>-->
+          <p class="text-white text-center paragraph-lg font-tertiary">{{.Site.Params.address}}</p>
         </div>
       </div>
     </div>
-  </div> -->
-  <div class="border-top text-center border-dark py-5">
-  <!--  <p class="mb-0 text-light">{{ .Site.Params.copyright | markdownify }}</p>-->
-    <p class="mb-0 text-light">{{.Site.Params.author}}</p>
-    <p class="mb-0 text-light">{{.Site.Params.address}}</p>
-    <p class="mb-0 text-light">{{.Site.Params.email}}</p>
+  </div> 
+ <div class="border-top text-center border-dark py-5">
+    <p class="mb-0 text-light">{{ .Site.Params.copyright | markdownify }}</p>
   </div>
 </footer>
 <!-- /footer -->
